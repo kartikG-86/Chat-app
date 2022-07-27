@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iChat App</title>
+    <!--client ko server se connect krne ke liye script lgana padega-->
+    <script defer src="http://localhost:5000/socket.io/socket.io.js"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="chat-section">
+      <div class="brand">
+        <img src="./logo.jfif " alt="" />
+        <h1>Wassup</h1>
+      </div>
+
+      <div class="message-area">
+
+      </div>
+
+      <div>
+        <textarea
+          id="textarea"
+          cols="20"
+          rows="1"
+          placeholder="Write a message"
+        ></textarea>
+        <button class="btn">Send</button>
+      </div>
+    </section>
+  </body>
+  <script src = "/socket.io/socket.io.js"></script>
+  <script defer src="./client.js"></script>
+</html>
