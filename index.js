@@ -4,7 +4,7 @@ const http = require('http').createServer(app);
 
 app.use(express.static(__dirname + "/public"));
 
-http.listen(process.env.PORT || 6000,function(){
+http.listen(process.env.PORT || 3000,function(){
     console.log('listening on port 3000')
 });
 
