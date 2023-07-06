@@ -23,7 +23,7 @@ CSS: Stylesheets are used to enhance the visual presentation and layout of the a
 
 ## How to Use
 
-Clone the repository: git clone https://github.com/your-username/ChatApp.git
+Clone the repository: git clone https://github.com/kartikG-86/Chat-app.git
 Navigate to the project directory: cd ChatApp
 Install dependencies: npm install
 Start the server: node server.js
